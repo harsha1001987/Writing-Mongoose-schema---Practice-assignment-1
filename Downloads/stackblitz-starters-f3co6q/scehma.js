@@ -21,5 +21,7 @@ const profileschema = new mongoose.schema({
     lastlogin:{type:Date}
  })
 
+ const activity = mongoose.model('activity',mongoose.schema)
+
 
  
